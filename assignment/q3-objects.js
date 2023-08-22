@@ -26,7 +26,7 @@ function convert(keyArr, valueArr){
         - Step 4: Write a return statement to return the object literal after the for-loop code block.
     */
     let localObj = {}; 
-    for (i = 0; i < bookIdArr.length; i++){
+    for (i in bookIdArr){
         localObj[bookIdArr[i]] = bookTitle[i];
     };
     return localObj;
