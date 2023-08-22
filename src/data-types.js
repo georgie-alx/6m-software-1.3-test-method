@@ -11,7 +11,8 @@ let x;
 console.log("x",typeof x);
 
 const y = null;
-console.log("y",typeof y);
+console.log("y", typeof y); 
+// null is an obj in js!
 
 const obj = {};
 console.log("obj",typeof obj);
